@@ -18,4 +18,4 @@ class ApplicationRunnerTest {
         Assertions.assertEquals(15, resultByDiv.getSumByDiv ());
 
     }
-} 
+}
