@@ -9,13 +9,13 @@ class ApplicationRunnerTest {
     @org.junit.jupiter.api.Test
     void getResultByStrManipulatrion() {
         int number = 12345;
-        Assertions.assertEquals(15, resultByStrManipulation.getResultByStrManipulatrion);
+        Assertions.assertEquals(15, ApplicationRunner.getResultByStrManipulatrion(number));
     }
 
     @org.junit.jupiter.api.Test
     void getSumByDiv() {
         int number = 12345;
-        Assertions.assertEquals(15, resultByDiv.getSumByDiv ());
+        Assertions.assertEquals(15, ApplicationRunner.getSumByDiv(number));
 
     }
 }
