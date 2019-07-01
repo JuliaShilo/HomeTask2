@@ -8,10 +8,11 @@ public class ApplicationRunner {
         System.out.println(resultByDiv);
 
         int resultByStrManipulation = getResultByStrManipulatrion(12345);
+        System.out.println(resultByStrManipulation);
 
     }
 
-    private static int getResultByStrManipulatrion(int number) {
+    public static int getResultByStrManipulatrion(int number) {
 
         int result = 0;
 
@@ -28,7 +29,7 @@ public class ApplicationRunner {
         return result;
     }
 
-    private static int getSumByDiv(int number) {
+    public static int getSumByDiv(int number) {
 
         int result = 0;
         while (number !=0) {
